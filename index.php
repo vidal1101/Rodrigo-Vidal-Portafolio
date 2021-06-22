@@ -644,7 +644,9 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-recaptcha-site-key="Your_reCAPTCHA_site_key">              <div class="row">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" >              
+              
+              <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
                   <input type="text" name="name" class="form-control" id="name" required>
@@ -707,7 +709,6 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="forms/contact.php" ></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=Your_reCAPTCHA_site_key"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
